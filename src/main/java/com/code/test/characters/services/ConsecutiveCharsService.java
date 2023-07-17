@@ -22,12 +22,12 @@ public class ConsecutiveCharsService {
     private ConsecutiveCharsInterface replaceConsecutiveCharsImpl;
 
     public String removeConsecutiveChars(String input) {
-        Pattern findByPattern = Pattern.compile(charactersMatcherConfig.getCharactersMatchPattrn());
+        Pattern findByPattern = Pattern.compile(charactersMatcherConfig.getCharactersMatchPattern());
         return removeConsecutiveCharsImpl.handleChars(input, findByPattern);
     }
 
     public String replaceConsecutiveChars(String input) {
-        Pattern findByPattern = Pattern.compile(charactersMatcherConfig.getCharactersMatchPattrn());
+        Pattern findByPattern = Pattern.compile(charactersMatcherConfig.getCharactersMatchPattern());
         return replaceConsecutiveCharsImpl.handleChars(input, findByPattern);
     }
 }

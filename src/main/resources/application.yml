@@ -1,2 +1,2 @@
 matcher:
-  charactersMatchPattrn: "(\\p{Alpha})\\1{2,}"
+  charactersMatchPattern: "(\\p{Alpha})\\1{2,}"
