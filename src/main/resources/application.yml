@@ -1,0 +1,2 @@
+matcher:
+  charactersMatchPattrn: "(\\p{Alpha})\\1{2,}"
